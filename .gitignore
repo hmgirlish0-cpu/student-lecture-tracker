@@ -1,0 +1,68 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+.cache/
+
+# Documentation (keep only essential)
+FIXED.md
+OPEN_APP.md
+FIX_GITHUB_PAGES.md
+RUN_LOCAL_SERVER.md
+START_HERE.md
+SUBMIT_THIS.md
+EASY_DEPLOYMENT.md
+DEPLOYMENT_GUIDE.md
+QUICKSTART.md
+VALIDATION.md
+OPEN_ME.md
+
+# Source files (not needed for deployment)
+src/
+static/
+templates/
+
+# Config files (not needed for deployment)
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
+tailwind.config.js
+postcss.config.js
+
+# Other
+standalone.html
+start.bat
+start-server.bat
+server.py
+requirements.txt
+app.py
+
+# NOTE: .kiro directory is INCLUDED (not ignored) for submission
